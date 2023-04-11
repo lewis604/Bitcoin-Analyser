@@ -5,7 +5,7 @@ import streamlit as st
 
 
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 def BasicGeneration(userPrompt):
     completion = openai.ChatCompletion.create(
